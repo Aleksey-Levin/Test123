@@ -14,7 +14,7 @@ export const Menu = observer(() => {
   return (
     <div className={classes.content}>
       <MenuButton onClick={() => {
-        setIsOpen((prev) => !prev)
+        setIsOpen((prev) => !prev )
       }}
       />
       {isOpen && (
